@@ -1,41 +1,23 @@
 ﻿a:hover
 {
-    color:white;
+    color:#BEC3C7;
 }
 a:visited {
-    color: white;
+    color:#BEC3C7;
 }
 a:link {
-    color: white;
+    color:#BEC3C7;
 }
 body
 {
-    background-color:purple;
+    background-color:#4B0081;
     color:white;
     font-size:40px;
 
 }
-#calosc
-{
-    position:center;
-    width:100%;
-    height:80%;
-}
-#lewa {
-    float: left;
-    background: blue;
-    width: 30%;
-    height: 60%;
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 5%;
-}
 #oceny {
     float: left;
-    background: blue;
+    background:#003152;
     width: 30%;
     height: 60%;
     text-align: center;
@@ -49,7 +31,7 @@ body
 }
 #kreator {
 	float:right;
-    background: blue;
+    background:#003152;
     width: 30%;
     height: 60%;
     text-align: center;
@@ -61,7 +43,7 @@ body
 }
 #wglad {
 	float:right;
-    background: blue;
+    background:#003152;
     width: 30%;
     height: 100%;
     text-align: center;
@@ -70,4 +52,16 @@ body
     padding-left: 5%;
     padding-right: 5%;
     margin: 5%;
+}
+#oceny:hover
+{
+	transform: scale(1.05);
+}
+#wglad:hover
+{
+	transform: scale(1.05);
+}
+#kreator:hover
+{
+	transform: scale(1.05);
 }
