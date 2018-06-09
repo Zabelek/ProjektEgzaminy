@@ -34,43 +34,30 @@ body
     padding-right: 5%;
     margin: 5%;
 }
-#prawa {
-    float: left;
-    background: #4B0081;
-    width: 10%;
-    height: 100%;
-    text-align: center;
-	margin-right: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
 #tajmer{
-	float: left;
+	float: right;
     background: #003152;
-    width: 50%;
+    width: 10%;
     height: 40%;
     text-align: center;
-    padding-top: 85%;
-    padding-bottom: 85%;
-    padding-left: 60%;
-    padding-right: 110%;
-    margin-bottom: 15%;
-	margin-right: 10%;
-	margin-left 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin:5%;
 
 }
 #nrabumu{
-	float: left;
+	float: right;
     background: #003152;
-    width: 50%;
+    width: 10%;
     height: 40%;
     text-align: center;
-    padding-top: 85%;
-    padding-bottom: 85%;
-    padding-left: 60%;
-    padding-right: 110%;
-    margin-top: 13.1%;
-	margin-right: 10%;
-	margin-left 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
 
 }
