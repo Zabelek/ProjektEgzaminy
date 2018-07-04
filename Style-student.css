@@ -1,63 +1,73 @@
-﻿a:hover
-{
-    color:#BEC3C7;
+﻿a:hover {
+    color: #BEC3C7;
 }
+
 a:visited {
     color: #BEC3C7;
 }
+
 a:link {
     color: #BEC3C7;
 }
-body
-{
-    background-color:#4B0081;
-    color:white;
-    font-size:40px;
 
+body {
+    background-color: #232b94;
+    color: #BEC3C7;
+    font-size: 40px;
 }
-#calosc
-{
-    position:center;
-    width:100%;
-    height:80%;
+
+#naglowek {
+    height: 20%;
+    color: #BEC3C7;
 }
-#wyebaneokno {
+
+#nag1 {
     float: left;
-    background: #003152;
-    width: 50%;
-    height: 100%;
-    text-align: center;
-	border-top: 5%;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 15%;
 }
-#tajmer{
-	float: right;
-    background: #003152;
-    width: 10%;
-    height: 40%;
-    text-align: center;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin:5%;
 
+#nag2 {
+    float: left;
 }
-#nrabumu{
-	float: right;
-    background: #003152;
-    width: 10%;
-    height: 40%;
-    text-align: center;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    padding-left: 5%;
-    padding-right: 5%;
-	margin-right: 5%;
-	margin-left: 5%;
 
+#gora {
+    background-color: #070E6A;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+#dol {
+    padding: 4%;
+}
+
+#guzik {
+    padding: 7%;
+    margin-left: 15%;
+    margin-right: 5%;
+    float: left;
+    background: #070E6A;
+}
+
+#napis {
+    float: left;
+}
+
+#wylogu {
+    background: #232b94;
+    float: left;
+    margin-left: 57%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    #wylogu:hover {
+        transform: scale(1.05);
+    }
+
+#guzik:hover {
+    transform: scale(1.05);
 }

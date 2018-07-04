@@ -13,8 +13,8 @@ $sql = "SELECT * FROM oceny";
 $wynik = @$polaczenie-> query($sql);
 
 if(mysqli_num_rows($wynik) > 0) {
-	
-    echo "<table cellpadding=\"2\" border=1>";
+	echo "<div id='tab'>";
+    echo "<table id='tabela' cellpadding=\"2\" border=1>";
     while($r = $wynik->fetch_assoc()) {
         echo "<tr>";
 		 echo "<td>".$r['ID_Ucznia']."</td>";
@@ -23,6 +23,7 @@ if(mysqli_num_rows($wynik) > 0) {
         echo "</tr>";
     }
     echo "</table>";
+	echo "</div>";
 } 
 ?>
 <!DOCTYPE HTML>
@@ -33,7 +34,7 @@ if(mysqli_num_rows($wynik) > 0) {
     <meta name="description" content="Strona egzaminacyjna, projekt na narzedzaia programistyczne" />
     <meta name="keywords" content="Strona egzaminacyjna, UTP, Narzedzia programistyczne" />
     <meta http-equiv="X-UA-Compatible" content="IE=egdge,chrome=1" />
-    <link href="style-student.css" rel="stylesheet">
+    <link href="style-tabela.css" rel="stylesheet">
 </head>
 
 <body>

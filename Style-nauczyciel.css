@@ -8,60 +8,56 @@ a:visited {
 a:link {
     color:#BEC3C7;
 }
-body
-{
-    background-color:#4B0081;
-    color:white;
-    font-size:40px;
+body {
+    background-color: #232b94;
+    color: #BEC3C7;
+    font-size: 40px;
+}
+#naglowek {
+    height: 20%;
+    color: #BEC3C7;
+}
 
-}
-#oceny {
+#nag1 {
     float: left;
-    background:#003152;
-    width: 30%;
-    height: 60%;
-    text-align: center;
-    padding-top: 7%;
-    padding-bottom: 7%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 15%;
 }
-#kreator {
-	float:right;
-    background:#003152;
-    width: 30%;
-    height: 60%;
-    text-align: center;
-    padding-top: 18%;
-    padding-bottom: 17.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 5%;
+
+#nag2 {
+    float: left;
 }
-#wglad {
-	float:right;
-    background:#003152;
-    width: 30%;
-    height: 100%;
-    text-align: center;
-    padding-top: 7%;
-    padding-bottom: 7%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 5%;
+#gora {
+    background-color: #070E6A;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
-#oceny:hover
-{
-	transform: scale(1.05);
+#dol {
+    padding: 4%;
 }
-#wglad:hover
-{
-	transform: scale(1.05);
+#guzik {
+    padding: 7%;
+    margin-left: 6%;
+    margin-right: 4%;
+    float: left;
+    background: #070E6A;
 }
-#kreator:hover
-{
-	transform: scale(1.05);
+#napis{
+    float:left;
+}
+#wylogu {
+    background: #232b94;
+    float: left;
+    margin-left: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#wylogu:hover {
+        transform: scale(1.05);
+    }
+#guzik:hover {
+    transform: scale(1.05);
 }
