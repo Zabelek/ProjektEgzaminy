@@ -27,8 +27,7 @@ body {
 #nag2 {
     float: left;
 }
-#box
-{
+#box {
     float: left;
     background: #070E6A;
     width: 30%;
@@ -38,12 +37,14 @@ body {
     padding-bottom: 8%;
     padding-left: 5%;
     padding-right: 4%;
-	margin-top:5%;
-	margin-left:6%;
-	margin-right:5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 5%;
+    transition: 0.5s ease;
 }
 #box:hover
 {
+    transition: 0.5s ease;
 	transform: scale(1.05);
 }
 #log {

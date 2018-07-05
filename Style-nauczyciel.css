@@ -42,6 +42,7 @@ body {
     margin-right: 4%;
     float: left;
     background: #070E6A;
+    transition: 0.5s ease;
 }
 #napis{
     float:left;
@@ -54,10 +55,13 @@ body {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: 0.5s ease;
 }
 #wylogu:hover {
-        transform: scale(1.05);
-    }
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
 #guzik:hover {
     transform: scale(1.05);
+    transition: 0.5s ease;
 }
