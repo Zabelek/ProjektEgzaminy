@@ -1,0 +1,89 @@
+﻿a:hover {
+    color: #BEC3C7;
+}
+
+a:visited {
+    color: #BEC3C7;
+}
+
+a:link {
+    color: #BEC3C7;
+}
+
+body {
+    background-color: #232b94;
+    color: #BEC3C7;
+    font-size: 40px;
+}
+
+#naglowek {
+    height: 20%;
+    color: #BEC3C7;
+}
+
+#nag1 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#nag2 {
+    float: left;
+}
+
+#gora {
+    background-color: #070E6A;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+#dol {
+    padding: 4%;
+}
+
+#guzik {
+    padding: 7%;
+    margin-left: 15%;
+    margin-right: 5%;
+    float: left;
+    background: #070E6A;
+    transition: 0.5s ease;
+}
+
+#napis {
+    float: left;
+}
+
+#wylogu {
+    background: #232b94;
+    float: left;
+    margin-left: 57%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s ease;
+}
+
+#wylogu:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+#guzik:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+#tab{
+    margin-left:35%;
+}
+#tabela {
+    padding: 20px;
+    border: 4px solid #232b94;
+}
+#tabela td{
+    padding:10px;
+    font-size:40px;
+    border: 4px solid #070E6A;
+}
